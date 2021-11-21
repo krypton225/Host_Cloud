@@ -2,7 +2,7 @@
   height: 100vh;
   padding: 0 25px;
   padding-top: calc(var(--padding-top) * 1.5);
-  padding-bottom: var(--padding-bottom);
+  /* padding-bottom: var(--padding-bottom); */
   margin-top: 120px;
   background-image: url("../assets/images/footer-bg.jpg");
   background-position: center;
@@ -17,8 +17,9 @@
 
 @media (max-width: 768px) {
   .my-footer {
+    padding-top: calc(var(--padding-top) / 4);
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 30px 15px;
   }
 }
 
@@ -41,6 +42,12 @@
   color: white;
   display: block;
   transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .my-footer > section > ul li a {
+    font-size: 12px;
+  }
 }
 
 .my-footer > section > ul li a:hover {
