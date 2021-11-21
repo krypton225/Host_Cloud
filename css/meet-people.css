@@ -1,0 +1,67 @@
+.meet-people {
+  padding: 0 30px;
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+
+.meet-people .second-title {
+  color: #1e1e1e;
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.meet-people .second-title + p {
+  width: 70%;
+  color: var(--text-color);
+  text-align: center;
+  font-size: 15px;
+  margin: 0 auto 80px;
+  line-height: 1.5;
+}
+
+.people-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+}
+
+.person-card {
+  min-width: 180px;
+  height: auto;
+  background-color: var(--bg-color);
+  border-radius: 10px;
+}
+
+.person-card:hover {
+  cursor: pointer;
+}
+
+.person-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: 0.4s;
+}
+
+.person-card:hover img {
+  opacity: 0.8;
+}
+
+.person-info {
+  margin: 5% auto;
+  text-align: center;
+}
+
+.person-info .name-person {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.person-info .job-person {
+  color: var(--main-color);
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+}

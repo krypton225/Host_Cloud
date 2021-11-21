@@ -1,0 +1,130 @@
+.bg-company {
+  height: 100vh;
+  padding: 0 30px;
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+  margin-bottom: 2px;
+  background-color: var(--bg-color);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+
+@media (max-width: 991px) {
+  .bg-company {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    /* margin-top: 120px; */
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.image-bg-company {
+  border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+  .image-bg-company {
+    width: 300px;
+    height: 180px;
+    margin: 10px auto;
+  }
+}
+
+.image-bg-company img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.bg-company .head-sec {
+  text-align: left;
+}
+
+.bg-company .head-sec .second-title {
+  color: #1e1e1e;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .bg-company .head-sec .second-title {
+    font-size: 16px;
+  }
+}
+
+.bg-company .head-sec .second-title + p {
+  color: var(--text-color);
+  line-height: 1.4;
+}
+
+.new-line {
+  width: 100%;
+  height: 3px;
+  background-color: #eeeeee;
+  margin: 30px 0;
+}
+
+@media (max-width: 991px) {
+  .bg-company .head-sec .second-title + p {
+    line-height: 1.2;
+    font-size: 12px;
+  }
+
+  .new-line {
+    margin: 15px 0;
+  }
+}
+
+.our-things {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.our-things li {
+  list-style: none;
+}
+
+.our-things li a {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #1e1e1e;
+  transition: 0.4s;
+}
+
+.our-things li a:hover {
+  color: var(--main-color);
+}
+
+@media (max-width: 991px) {
+  .our-things {
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .our-things li {
+    margin: 0 10px 5px 0;
+  }
+
+  .our-things li a {
+    font-size: 14px;
+  }
+}
+
+.our-things li a.active {
+  color: var(--main-color);
+}
+
+.our-things ~ p {
+  color: var(--text-color);
+}
+
+@media (max-width: 991px) {
+  .our-things ~ p {
+    font-size: 12px;
+  }
+}
