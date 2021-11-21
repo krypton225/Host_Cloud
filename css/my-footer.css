@@ -1,0 +1,91 @@
+.my-footer {
+  height: 100vh;
+  padding: 0 25px;
+  padding-top: calc(var(--padding-top) * 1.5);
+  padding-bottom: var(--padding-bottom);
+  margin-top: 120px;
+  background-image: url("../assets/images/footer-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .my-footer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+.my-footer > section > h5 {
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.my-footer > section > ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.my-footer > section > ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: white;
+  display: block;
+  transition: 0.5s;
+}
+
+.my-footer > section > ul li a:hover {
+  opacity: 0.7;
+}
+
+.my-footer .about-us .title-about-f + p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.my-footer .more-info .info-menu li a {
+  display: inline-block;
+}
+
+/* .my-footer::after {
+  content: "";
+  width: 90%;
+  height: 0.5px;
+  background-color: rgba(255, 255, 255, 0.514);
+  position: absolute;
+  bottom: 35%;
+  left: 2.5%;
+  margin: auto;
+  text-align: center;
+} */
+
+/* .line-footer {
+  width: 90%;
+  height: 0.5px;
+  background-color: rgba(255, 255, 255, 0.514);
+  position: absolute;
+  bottom: 35%;
+  left: 2.5%;
+  margin: auto;
+  text-align: center;
+} */
+
+.copyright {
+  max-width: 100%;
+  justify-items: center;
+  grid-column: 1 / -1;
+}
+
+.copyright p {
+  text-align: center;
+  color: white;
+}

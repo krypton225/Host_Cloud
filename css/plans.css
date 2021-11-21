@@ -1,0 +1,33 @@
+.plans {
+  padding: 0 30px;
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+  background-image: url("../assets/images/pricing-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: 50vh; */
+}
+
+.head-plans {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+.head-plans .title-plans {
+  font-size: 32px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  .plans .head-plans .title-plans {
+    font-size: 26px;
+  }
+}
+
+.head-plans .title-plans + p {
+  line-height: 1.7;
+  margin-bottom: 80px;
+}

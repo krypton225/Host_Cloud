@@ -1,0 +1,61 @@
+.services {
+  padding: 0 30px;
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+
+.services .head-sec {
+  text-align: left;
+}
+
+.services .head-sec .second-title {
+  font-size: 22px;
+}
+
+.head-sec + p {
+  color: var(--text-color);
+  margin-top: 20px;
+}
+
+.service-content {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.serv-box {
+  background-color: var(--bg-color);
+  padding: 70px 25px;
+  text-align: center;
+}
+
+.serv-box .icon {
+  background-color: var(--main-color);
+  color: white;
+  font-size: 30px;
+  padding: 35px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.serv-box .title-serv-bx {
+  color: #1e1e1e;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.serv-box .title-serv-bx + p {
+  width: 85%;
+  margin: auto;
+  color: var(--text-color);
+  line-height: 1.7;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.serv-box .title-serv-bx + p a {
+  color: var(--main-color);
+  text-decoration: none;
+}

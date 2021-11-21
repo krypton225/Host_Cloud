@@ -1,0 +1,92 @@
+.testimonial {
+  height: 100vh;
+  background-color: var(--bg-color);
+  padding: 0 50px;
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+
+.testimonial-info {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width: 991px) {
+  .testimonial-info {
+    width: 90%;
+  }
+}
+
+.icon-quote {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  display: block;
+  text-align: center;
+  margin: 70px auto;
+  font-size: 24px;
+  border-radius: 50%;
+  color: white;
+  background: linear-gradient(
+    145deg,
+    rgba(114, 2, 187, 1) 0%,
+    rgba(50, 100, 245, 1) 100%
+  );
+}
+
+.testimonial-info q {
+  display: block;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  .testimonial-info q {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+}
+
+.testimonial-info .person-name {
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.testimonial-info .job-name {
+  text-transform: capitalize;
+  margin-top: 15px;
+  color: var(--main-color);
+}
+
+.bullets {
+  width: 60%;
+  margin: 45px auto;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .bullets {
+    margin-bottom: 350px;
+  }
+}
+
+.bullets > div {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #7bd9e5;
+  cursor: pointer;
+}
+
+.bullets div.active {
+  margin: 0 15px;
+  background-color: var(--main-color);
+}

@@ -1,0 +1,118 @@
+.plans-prices {
+  padding: 0 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.plan {
+  background-color: white;
+  box-shadow: 0 0 10px 1px rgba(173, 173, 173, 0.5);
+  padding: 80px 60px;
+  margin-top: -120px;
+  text-align: center;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .plan {
+    margin-bottom: 170px;
+  }
+}
+
+.plan .title-my-plan {
+  text-transform: uppercase;
+  font-size: 19px;
+  margin-bottom: 25px;
+}
+
+.price-month {
+  width: 100%;
+  margin: 30px auto;
+  padding: 40px 0;
+  background-color: var(--main-color);
+  color: white;
+}
+
+.plan:nth-child(2) .price-month {
+  background: linear-gradient(270deg, rgb(146, 70, 70), rgb(64, 64, 180));
+}
+
+.price-month > p:nth-child(1) {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.price-month > p:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.price-month + p {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.price-month + p::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -30%;
+  left: 0;
+  background-color: rgb(209, 209, 209);
+}
+
+.features-list li {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.features-list li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  color: rgb(64, 64, 180);
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.my-button {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -3.6%;
+  left: 7%;
+  margin: auto;
+  text-align: center;
+}
+
+.btn.btn-plan {
+  width: 130px;
+  padding: 20px 25px;
+  border: 0;
+  outline: 0;
+}
+
+.plan:nth-child(1) .btn-plan,
+.plan:nth-child(3) .btn-plan {
+  background-color: var(--main-color);
+}
+
+.plan:nth-child(2) .btn-plan {
+  background: linear-gradient(270deg, rgb(146, 70, 70), rgb(64, 64, 180));
+}

@@ -1,0 +1,64 @@
+/* 
+    TODO: This file for sum all properties which are common.
+    TODO: We made this file in indexing!
+
+    TODO: INDEX:
+        * 1- astrik.
+        * 2- body.
+        * 3-
+        * 4-
+        * 5-
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* height: 6000px; */
+  font-family: "Roboto";
+}
+
+:root {
+  --main-color: #00bcd4;
+  --text-color: #6a6a6a;
+  --bg-color: #f7f7f7;
+  --padding-top: 120px;
+  --padding-bottom: 120px;
+}
+
+.btn {
+  padding: 8px 22px;
+  margin: 0 5px;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.head-sec {
+  text-align: center;
+}
+
+.sect-title {
+  color: var(--main-color);
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.head-sec .second-title {
+  font-size: 33px;
+}

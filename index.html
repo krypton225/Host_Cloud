@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a web design template">
+    <meta name="keywords" content="HTML, CSS and Js template">
+
+    <title>Host Cloud</title>
+
+    <!-- * There are two files for normalizing and all.min.css for webfont -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main-styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!-- * There are files for my working and i separated it -->
+    <link rel="stylesheet" href="css/nav-bar.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/happy-customer.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/plans.css">
+    <link rel="stylesheet" href="css/plans-prices.css">
+    <link rel="stylesheet" href="css/cloud-features.css">
+    <link rel="stylesheet" href="css/testimonial.css">
+    <link rel="stylesheet" href="css/my-footer.css">
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- TODO: Start navbar -->
+    <nav class="nav-bar" id="navBar">
+        <h1 class="logo">host <span>cloud</span></h1>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu" id="menu">
+            <li><a href="#home" class="active" onclick="toggleMenu();">home</a></li>
+            <li><a href="#" onclick="toggleMenu();">about us</a></li>
+            <li><a href="#" onclick="toggleMenu();">our services</a></li>
+            <li><a href="#" onclick="toggleMenu();">contact us</a></li>
+        </ul> <!-- ./menu -->
+        <div class="buttons">
+            <button class="btn login">log in</button>
+            <button class="btn signup">sign up</button>
+        </div> <!-- ./buttons -->
+    </nav> <!-- ./nav-bar -->
+    <!-- TODO: End navbar -->
+
+    <!-- TODO: Start home -->
+    <header class="home" id="home">
+        <section class="hero">
+            <h3 class="hero-title">search your domain</h3>
+            <input type="text" id="search-in" placeholder="Enter your domain here...">
+            <button class="btn search">search now</button>
+            <div class="checks">
+                <div>
+                    <input type="checkbox" id="input-1">
+                    <label for="input-1">.com ($10/yr)</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="input-2">
+                    <label for="input-2">.net ($12/yr)</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="input-3">
+                    <label for="input-3">.org ($8/yr)</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="input-4">
+                    <label for="input-4">.in ($6/yr)</label>
+                </div>
+            </div> <!-- ./checks -->
+        </section> <!-- ./hero -->
+    </header> <!-- ./home -->
+    <!-- TODO: End home -->
+
+    <!-- TODO: Start happy-customer -->
+    <section class="happy-customer" id="hapCust">
+        <h3 class="customer-title">trusted by 1,250+ happy customers worldwide</h3>
+        <div class="customers">
+            <div class="customer-bx">
+                <img src="assets/images/trusted-01.png" alt="Trusted Customer">
+            </div> <!-- ./customer-bx -->
+            <div class="customer-bx">
+                <img src="assets/images/trusted-01.png" alt="Trusted Customer">
+            </div> <!-- ./customer-bx -->
+            <div class="customer-bx">
+                <img src="assets/images/trusted-01.png" alt="Trusted Customer">
+            </div> <!-- ./customer-bx -->
+            <div class="customer-bx">
+                <img src="assets/images/trusted-01.png" alt="Trusted Customer">
+            </div> <!-- ./customer-bx -->
+        </div> <!-- ./customers -->
+    </section> <!-- ./happy-customer -->
+    <!-- TODO: End happy-customer -->
+
+    <!-- TODO: Start services -->
+    <section class="services" id="services">
+        <div class="head-sec">
+            <h5 class="sect-title">hosting services</h5>
+            <h2 class="second-title">Services we provide</h2>
+        </div> <!-- ./head-sec -->
+        <p>Host Cloud is a professional Bootstrap 4 template by TemplateMo for your hosting company websites.
+            There are 4 HTML pages included in this template. You can feel free to customize anything.
+            Please share this template to your friends. Thank you.</p>
+
+        <div class="service-content">
+            <div class="serv-box">
+                <i class="fa fa-database icon"></i>
+                <h3 class="title-serv-bx">10x light cloud</h3>
+                <p>Aenean sit amet leo vitae tellus vehicula tincidunt vel sed lorem. Nullam tincidunt commodo magna,
+                    id aliquam sapien sollicitudin id.</p>
+            </div> <!-- ./serv-box -->
+            <div class="serv-box">
+                <i class="fa fa-database icon"></i>
+                <h3 class="title-serv-bx">managed vPS cloud</h3>
+                <p>You are not allowed to re-distribute this template as a downloadable ZIP file on any template
+                    collection website. Please <a href="#">contact us</a> if you want to.</p>
+            </div> <!-- ./serv-box -->
+            <div class="serv-box">
+                <i class="fa fa-database icon"></i>
+                <h3 class="title-serv-bx">fully dedicated</h3>
+                <p>Aenean sit amet leo vitae tellus vehicula tincidunt vel sed lorem. Nullam tincidunt commodo magna,
+                    id aliquam sapien sollicitudin id.</p>
+            </div> <!-- ./serv-box -->
+        </div> <!-- ./service-content -->
+    </section> <!-- ./services -->
+    <!-- TODO: End services -->
+
+    <!-- TODO: Start plans -->
+    <section class="plans" id="plans">
+        <div class="head-plans">
+            <h4 class="title-plans">cloud hosting plans</h4>
+            <p>Lorem ipsum dolor amet taxidermy sriracha cardigan salvia actually vice migas enamel pin sustainable
+                carry
+                scenester lomo hot chicken farm table actually kinfolk.</p>
+        </div> <!-- ./head-plans -->
+    </section> <!-- ./plans -->
+    <!-- TODO: End plans -->
+
+    <!-- TODO: Start plans-prices -->
+    <section class="plans-prices" id="plansPrices">
+        <div class="plan">
+            <h5 class="title-my-plan">basic cloud 5X</h5>
+            <div class="price-month">
+                <p>$15.50</p>
+                <p>monthly</p>
+            </div> <!-- ./price -->
+            <p>Etiam sit amet placerat lacus, sed placerat mauris.
+                Vestibulum malesuada vehicula sapien non tempus.</p>
+            <ul class="features-list">
+                <li>500 GB storage space</li>
+                <li>3 TB data transfer</li>
+                <li>basic managed panel</li>
+                <li>24/7 fast support</li>
+                <li>100 premium themes</li>
+                <li>cancel or upgrade anytime</li>
+            </ul> <!-- ./features-list -->
+            <div class="my-button">
+                <button class="btn btn-plan start">start</button>
+            </div>
+        </div> <!-- ./plan -->
+
+        <div class="plan">
+            <h5 class="title-my-plan">cloud vps 10X</h5>
+            <div class="price-month">
+                <p>$30.00</p>
+                <p>monthly</p>
+            </div> <!-- ./price -->
+            <p>Etiam sit amet placerat lacus, sed placerat mauris.
+                Vestibulum malesuada vehicula sapien non tempus.</p>
+            <ul class="features-list">
+                <li>500 GB storage space</li>
+                <li>3 TB data transfer</li>
+                <li>basic managed panel</li>
+                <li>24/7 fast support</li>
+                <li>100 premium themes</li>
+                <li>cancel or upgrade anytime</li>
+            </ul> <!-- ./features-list -->
+            <div class="my-button">
+                <button class="btn btn-plan select">select</button>
+            </div>
+        </div> <!-- ./plan -->
+
+        <div class="plan">
+            <h5 class="title-my-plan">advanced cloud</h5>
+            <div class="price-month">
+                <p>$72.25</p>
+                <p>monthly</p>
+            </div> <!-- ./price -->
+            <p>Etiam sit amet placerat lacus, sed placerat mauris.
+                Vestibulum malesuada vehicula sapien non tempus.</p>
+            <ul class="features-list">
+                <li>500 GB storage space</li>
+                <li>3 TB data transfer</li>
+                <li>basic managed panel</li>
+                <li>24/7 fast support</li>
+                <li>100 premium themes</li>
+                <li>cancel or upgrade anytime</li>
+            </ul> <!-- ./features-list -->
+            <div class="my-button">
+                <button class="btn btn-plan take-it">take it</button>
+            </div>
+        </div> <!-- ./plan -->
+    </section> <!-- ./plans-prices -->
+    <!-- TODO: End plans-prices -->
+
+    <!-- TODO: Start cloud-features -->
+    <section class="cloud-feat" id="cloudFeat">
+        <div class="head-sec">
+            <h5 class="sect-title">Best Quality for you</h5>
+            <h2 class="second-title">Cloud Features</h2>
+        </div> <!-- ./head-sec -->
+
+        <div class="cloud-boxs">
+
+            <div class="feat-box">
+                <img src="assets/images/feature-01.png" alt="Feature Photo">
+                <div class="feat-bx-info">
+                    <h4 class="feat-box-title">load balanced</h4>
+                    <p>Nulla nisl ex, vehicula in urna nec, commodo consectetur augue.
+                        Vivamus nec metus mauris. lacinia tempus urna.</p>
+                </div> <!-- ./feat-bx-info -->
+            </div> <!-- ./feat-box -->
+
+            <div class="feat-box">
+                <img src="assets/images/feature-01.png" alt="Feature Photo">
+                <div class="feat-bx-info">
+                    <h4 class="feat-box-title">99.9% Uptime Guaranteed</h4>
+                    <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable
+                        carry scenester.</p>
+                </div> <!-- ./feat-bx-info -->
+            </div> <!-- ./feat-box -->
+
+            <div class="feat-box">
+                <img src="assets/images/feature-01.png" alt="Feature Photo">
+                <div class="feat-bx-info">
+                    <h4 class="feat-box-title">Top Reliability</h4>
+                    <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable
+                        carry scenester.</p>
+                </div> <!-- ./feat-bx-info -->
+            </div> <!-- ./feat-box -->
+
+            <div class="feat-box">
+                <img src="assets/images/feature-01.png" alt="Feature Photo">
+                <div class="feat-bx-info">
+                    <h4 class="feat-box-title">High Security</h4>
+                    <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable
+                        carry scenester.</p>
+                </div> <!-- ./feat-bx-info -->
+            </div> <!-- ./feat-box -->
+
+            <div class="feat-box">
+                <img src="assets/images/feature-01.png" alt="Feature Photo">
+                <div class="feat-bx-info">
+                    <h4 class="feat-box-title">Quality Hardwares</h4>
+                    <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable
+                        carry scenester.</p>
+                </div> <!-- ./feat-bx-info -->
+            </div> <!-- ./feat-box -->
+
+            <div class="feat-box">
+                <img src="assets/images/feature-01.png" alt="Feature Photo">
+                <div class="feat-bx-info">
+                    <h4 class="feat-box-title">Network Solutions</h4>
+                    <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable
+                        carry scenester.</p>
+                </div> <!-- ./feat-bx-info -->
+            </div> <!-- ./feat-box -->
+
+        </div> <!-- ./cloud-boxs -->
+    </section> <!-- ./cloud-feat -->
+    <!-- TODO: End cloud-features -->
+
+    <!-- TODO: Start Testimonials -->
+    <section class="testimonial" id="testimonial">
+        <div class="head-sec">
+            <h5 class="sect-title">Testimonials</h5>
+            <h2 class="second-title">What they say about us</h2>
+        </div> <!-- ./head-sec -->
+
+        <div class="testimonial-info">
+            <i class="fa fa-quote-right icon-quote"></i>
+            <q>Quisque lacinia sed velit et maximus. Quisque dictum, lacus a malesuada finibus, arcu magna
+                luctus risus, eu accumsan risus elit vitae lacus.</q>
+            <h5 class="person-name">vinny smart</h5>
+            <h5 class="job-name">digital marketer</h5>
+
+            <div class="bullets">
+                <div></div>
+                <div class="active"></div>
+                <div></div>
+            </div> <!-- ./bullets -->
+        </div> <!-- ./testimonial-info -->
+    </section> <!-- ./testimonial -->
+    <!-- TODO: End Testimonials -->
+
+    <!-- TODO: Start Footer -->
+    <footer class="my-footer" id="footer">
+        <section class="about-us">
+            <h5 class="title-about-f">about us</h5>
+            <p>Host Cloud is provided by TemplateMo for free of charge.
+                Anyone can download and use this CSS Bootstrap template for commercial purposes.</p>
+        </section> <!-- ./about-us -->
+
+        <section class="host-plans">
+            <h5>hosting plans</h5>
+            <ul class="host-menu">
+                <li><a href="#">basic cloud 5X</a></li>
+                <li><a href="#">cloud VPS 10X</a></li>
+                <li><a href="#">advanced cloud</a></li>
+                <li><a href="#">custom designs</a></li>
+                <li><a href="#">special solutions</a></li>
+            </ul> <!-- ./host-menu -->
+        </section> <!-- ./host-plans -->
+
+        <section class="useful-links">
+            <h5>useful links</h5>
+            <ul class="useful-menu">
+                <li><a href="#">cloud hosting platform</a></li>
+                <li><a href="#">light speed zone</a></li>
+                <li><a href="#">content delivery network</a></li>
+                <li><a href="#">customer support</a></li>
+                <li><a href="#">latest news</a></li>
+            </ul> <!-- ./useful-menu -->
+        </section> <!-- ./useful-links -->
+
+        <section class="more-info">
+            <h5>more information</h5>
+            <ul class="info-menu">
+                <li>Phone: <a href="#">010-020-0560</a></li>
+                <li>Email: <a href="#">mail@company.com</a></li>
+                <li>Support: <a href="#">support@company.com</a></li>
+                <li>Website: <a href="#">www.company.com</a></li>
+            </ul> <!-- ./info-menu -->
+        </section> <!-- ./more-info -->
+
+        <section class="copyright" id="cpyrights">
+            <p>copyright © 2020 cloud hosting company - designed by templateMo</p>
+        </section> <!-- ./copyright -->
+    </footer> <!-- ./my-footer -->
+    <!-- TODO: End Footer -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
