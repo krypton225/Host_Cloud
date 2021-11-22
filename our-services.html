@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a web design template">
+    <meta name="keywords" content="HTML, CSS and Js template">
+
+    <title>Host Cloud</title>
+
+    <!-- * There are two files for normalizing and all.min.css for webfont -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main-styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!-- * There are files for my working and i separated it -->
+    <link rel="stylesheet" href="css/nav-bar.css">
+
+    <!-- * There are files for ONLY about-page.html, and others is common -->
+    <link rel="stylesheet" href="css/head-services.css">
+    <link rel="stylesheet" href="css/host-services.css">
+
+    <link rel="stylesheet" href="css/testimonial.css">
+    <link rel="stylesheet" href="css/my-footer.css">
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- TODO: Start navbar -->
+    <nav class="nav-bar" id="navBar">
+        <h1 class="logo">host <span>cloud</span></h1>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu" id="menu">
+            <li><a href="index.html" class="active" onclick="toggleMenu();">home</a></li>
+            <li><a href="about-page.html" onclick="toggleMenu();">about us</a></li>
+            <li><a href="our-services.html" onclick="toggleMenu();">our services</a></li>
+            <li><a href="#" onclick="toggleMenu();">contact us</a></li>
+        </ul> <!-- ./menu -->
+        <div class="buttons">
+            <button class="btn login">log in</button>
+            <button class="btn signup">sign up</button>
+        </div> <!-- ./buttons -->
+    </nav> <!-- ./nav-bar -->
+    <!-- TODO: End navbar -->
+
+    <!-- TODO: Start head service -->
+    <section class="head-service" id="headService">
+        <h2 class="title-head-service">our services</h2>
+        <p><a href="index.html">home</a>&nbsp; / &nbsp;our services</p>
+    </section> <!-- ./head-service -->
+    <!-- TODO: Start head service -->
+
+    <!-- TODO: Start host-services -->
+    <section class="host-services" id="hostServices">
+        <div class="head-sec">
+            <h5 class="sect-title">hosting services</h5>
+            <h2 class="second-title">best services we provide</h2>
+            <p>Aenean molestie, odio quis viverra ultricies,
+                leo tellus lacinia neque, sit amet maximus tortor nunc aliquet felis.
+                Duis sit amet nibh non sapien tincidunt bibendum. Curabitur rutrum justo id leo ornare,
+                suscipit lobortis augue volutpat.</p>
+        </div> <!-- ./head-sec -->
+
+        <div class="best-services">
+            <div class="service-item-card">
+                <i class="fa fa-cloud"></i>
+                <h5 class="serv-item-title">VPS cloud</h5>
+                <p>Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit
+                    elementum tempor. Pellentesque nec urna ipsum.</p>
+            </div> <!-- ./service-item-card -->
+            <div class="service-item-card">
+                <i class="fa fa-server"></i>
+                <h5 class="serv-item-title">fast network</h5>
+                <p>Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh. Aenean sodales justo vitae ex
+                    pharetra, vitae tincidunt dolor condimentum.</p>
+            </div> <!-- ./service-item-card -->
+            <div class="service-item-card">
+                <i class="fa fa-database"></i>
+                <h5 class="serv-item-title">reliable platform</h5>
+                <p>Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit
+                    elementum tempor. Pellentesque nec urna ipsum.</p>
+            </div> <!-- ./service-item-card -->
+            <div class="service-item-card">
+                <i class="fa fa-save"></i>
+                <h5 class="serv-item-title">managed CDN</h5>
+                <p>Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh. Aenean sodales justo vitae ex
+                    pharetra, vitae tincidunt dolor condimentum.</p>
+            </div> <!-- ./service-item-card -->
+            <div class="service-item-card">
+                <i class="fa fa-check"></i>
+                <h5 class="serv-item-title">optimal hosting</h5>
+                <p>Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit
+                    elementum tempor. Pellentesque nec urna ipsum.</p>
+            </div> <!-- ./service-item-card -->
+            <div class="service-item-card">
+                <i class="far fa-life-ring"></i>
+                <h5 class="serv-item-title">customer support</h5>
+                <p>Cras placerat mauris scelerisque, placerat enim sed, imperdiet diam.
+                    Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque.</p>
+            </div> <!-- ./service-item-card -->
+        </div> <!-- ./best-services -->
+    </section> <!-- ./host-services -->
+    <!-- TODO: End host-services -->
+
+    <!-- TODO: Start Testimonials -->
+    <section class="testimonial" id="testimonial">
+        <div class="head-sec">
+            <h5 class="sect-title">Testimonials</h5>
+            <h2 class="second-title">What they say about us</h2>
+        </div> <!-- ./head-sec -->
+
+        <div class="testimonial-info">
+            <i class="fa fa-quote-right icon-quote"></i>
+            <q>Quisque lacinia sed velit et maximus. Quisque dictum, lacus a malesuada finibus, arcu magna
+                luctus risus, eu accumsan risus elit vitae lacus.</q>
+            <h5 class="person-name">vinny smart</h5>
+            <h5 class="job-name">digital marketer</h5>
+
+            <div class="bullets">
+                <div></div>
+                <div class="active"></div>
+                <div></div>
+            </div> <!-- ./bullets -->
+        </div> <!-- ./testimonial-info -->
+    </section> <!-- ./testimonial -->
+    <!-- TODO: End Testimonials -->
+
+    <!-- TODO: Start Footer -->
+    <footer class="my-footer" id="footer">
+        <section class="about-us">
+            <h5 class="title-about-f">about us</h5>
+            <p>Host Cloud is provided by TemplateMo for free of charge.
+                Anyone can download and use this CSS Bootstrap template for commercial purposes.</p>
+        </section> <!-- ./about-us -->
+
+        <section class="host-plans">
+            <h5>hosting plans</h5>
+            <ul class="host-menu">
+                <li><a href="#">basic cloud 5X</a></li>
+                <li><a href="#">cloud VPS 10X</a></li>
+                <li><a href="#">advanced cloud</a></li>
+                <li><a href="#">custom designs</a></li>
+                <li><a href="#">special solutions</a></li>
+            </ul> <!-- ./host-menu -->
+        </section> <!-- ./host-plans -->
+
+        <section class="useful-links">
+            <h5>useful links</h5>
+            <ul class="useful-menu">
+                <li><a href="#">cloud hosting platform</a></li>
+                <li><a href="#">light speed zone</a></li>
+                <li><a href="#">content delivery network</a></li>
+                <li><a href="#">customer support</a></li>
+                <li><a href="#">latest news</a></li>
+            </ul> <!-- ./useful-menu -->
+        </section> <!-- ./useful-links -->
+
+        <section class="more-info">
+            <h5>more information</h5>
+            <ul class="info-menu">
+                <li>Phone: <a href="#">010-020-0560</a></li>
+                <li>Email: <a href="#">mail@company.com</a></li>
+                <li>Support: <a href="#">support@company.com</a></li>
+                <li>Website: <a href="#">www.company.com</a></li>
+            </ul> <!-- ./info-menu -->
+        </section> <!-- ./more-info -->
+
+        <section class="copyright" id="cpyrights">
+            <p>copyright © 2020 cloud hosting company - designed by templateMo</p>
+        </section> <!-- ./copyright -->
+    </footer> <!-- ./my-footer -->
+    <!-- TODO: End Footer -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
