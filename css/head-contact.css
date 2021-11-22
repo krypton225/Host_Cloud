@@ -1,0 +1,35 @@
+.head-contact {
+  height: 76vh;
+  color: white;
+  background-image: url("../assets/images/heading-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.head-contact .title-head-contact {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.head-contact .title-head-contact + p {
+  color: rgba(255, 255, 255, 0.658);
+}
+
+.head-contact .title-head-contact + p a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.head-contact .title-head-contact + p a:active,
+.head-contact .title-head-contact + p a:focus,
+.head-contact .title-head-contact + p a:visited,
+.head-contact .title-head-contact + p a:hover {
+  color: white;
+}

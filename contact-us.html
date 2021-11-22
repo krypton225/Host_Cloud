@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="css/nav-bar.css">
 
     <!-- * There are files for ONLY about-page.html, and others is common -->
-    <link rel="stylesheet" href="css/head-services.css">
-    <link rel="stylesheet" href="css/host-services.css">
+    <link rel="stylesheet" href="css/head-contact.css">
+    <link rel="stylesheet" href="css/form-keep-touch.css">
 
     <link rel="stylesheet" href="css/testimonial.css">
     <link rel="stylesheet" href="css/my-footer.css">
@@ -49,8 +49,8 @@
         <ul class="menu" id="menu">
             <li><a href="index.html" onclick="toggleMenu();">home</a></li>
             <li><a href="about-page.html" onclick="toggleMenu();">about us</a></li>
-            <li><a href="our-services.html" class="active" onclick="toggleMenu();">our services</a></li>
-            <li><a href="contact-us.html" onclick="toggleMenu();">contact us</a></li>
+            <li><a href="our-services.html" onclick="toggleMenu();">our services</a></li>
+            <li><a href="#" class="active" onclick="toggleMenu();">contact us</a></li>
         </ul> <!-- ./menu -->
         <div class="buttons">
             <button class="btn login">log in</button>
@@ -59,64 +59,56 @@
     </nav> <!-- ./nav-bar -->
     <!-- TODO: End navbar -->
 
-    <!-- TODO: Start head service -->
-    <section class="head-service" id="headService">
-        <h2 class="title-head-service">our services</h2>
-        <p><a href="index.html">home</a>&nbsp; / &nbsp;our services</p>
-    </section> <!-- ./head-service -->
-    <!-- TODO: Start head service -->
+    <!-- TODO: Start header of contact -->
+    <section class="head-contact" id="headContact">
+        <h2 class="title-head-contact">contact us</h2>
+        <p><a href="index.html">home</a>&nbsp; / &nbsp;contact us</p>
+    </section> <!-- ./head-about -->
+    <!-- TODO: End header of contact -->
 
-    <!-- TODO: Start host-services -->
-    <section class="host-services" id="hostServices">
-        <div class="head-sec">
-            <h5 class="sect-title">hosting services</h5>
-            <h2 class="second-title">best services we provide</h2>
-            <p>Aenean molestie, odio quis viverra ultricies,
-                leo tellus lacinia neque, sit amet maximus tortor nunc aliquet felis.
-                Duis sit amet nibh non sapien tincidunt bibendum. Curabitur rutrum justo id leo ornare,
-                suscipit lobortis augue volutpat.</p>
-        </div> <!-- ./head-sec -->
+    <!-- TODO: Start form-keep-touch -->
+    <section class="form-touch" id="formTouch">
 
-        <div class="best-services">
-            <div class="service-item-card">
-                <i class="fa fa-cloud"></i>
-                <h5 class="serv-item-title">VPS cloud</h5>
-                <p>Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit
-                    elementum tempor. Pellentesque nec urna ipsum.</p>
-            </div> <!-- ./service-item-card -->
-            <div class="service-item-card">
-                <i class="fa fa-server"></i>
-                <h5 class="serv-item-title">fast network</h5>
-                <p>Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh. Aenean sodales justo vitae ex
-                    pharetra, vitae tincidunt dolor condimentum.</p>
-            </div> <!-- ./service-item-card -->
-            <div class="service-item-card">
-                <i class="fa fa-database"></i>
-                <h5 class="serv-item-title">reliable platform</h5>
-                <p>Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit
-                    elementum tempor. Pellentesque nec urna ipsum.</p>
-            </div> <!-- ./service-item-card -->
-            <div class="service-item-card">
-                <i class="fa fa-save"></i>
-                <h5 class="serv-item-title">managed CDN</h5>
-                <p>Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh. Aenean sodales justo vitae ex
-                    pharetra, vitae tincidunt dolor condimentum.</p>
-            </div> <!-- ./service-item-card -->
-            <div class="service-item-card">
-                <i class="fa fa-check"></i>
-                <h5 class="serv-item-title">optimal hosting</h5>
-                <p>Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit
-                    elementum tempor. Pellentesque nec urna ipsum.</p>
-            </div> <!-- ./service-item-card -->
-            <div class="service-item-card">
-                <i class="far fa-life-ring"></i>
-                <h5 class="serv-item-title">customer support</h5>
-                <p>Cras placerat mauris scelerisque, placerat enim sed, imperdiet diam.
-                    Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque.</p>
-            </div> <!-- ./service-item-card -->
-        </div> <!-- ./best-services -->
-    </section> <!-- ./host-services -->
-    <!-- TODO: End host-services -->
+        <form class="my-form" autocomplete="off">
+            <input type="text" name="name" id="myName" placeholder="Your name" autocomplete="off">
+            <input type="email" name="email" id="myEmail" placeholder="Your email" autocomplete="off">
+            <input type="text" name="subject" id="mySubject" placeholder="Your subject" autocomplete="off">
+            <textarea name="msg" id="msg" autocomplete="off" placeholder="Your message"></textarea>
+            <input class="btn" type="submit" value="send message">
+        </form> <!-- ./my-form -->
+
+        <div class="keep-touch">
+            <div class="head-sec">
+                <h5 class="sect-title">contact us</h5>
+                <h2 class="second-title">Let's keep in touch</h2>
+                <p>Quisque sagittis blandit sapien et elementum.
+                    Fusce pretium viverra consequat. Aliquam at feugiat mi.
+                    Pellentesque hendrerit, felis ac sodales commodo.</p>
+
+                <div class="new-line"></div>
+
+                <div class="contact-info">
+                    <div class="con-item">
+                        <i class="fa fa-phone-alt"></i>
+                        <p>010-020-0560</p>
+                    </div> <!-- ./con-item -->
+                    <div class="con-item">
+                        <i class="fa fa-envelope"></i>
+                        <p>contact@company.com</p>
+                    </div> <!-- ./con-item -->
+                    <div class="con-item">
+                        <i class="far fa-life-ring"></i>
+                        <p>support@company.com</p>
+                    </div> <!-- ./con-item -->
+                    <div class="con-item">
+                        <i class="fa fa-globe-africa"></i>
+                        <p>www.company.com</p>
+                    </div> <!-- ./con-item -->
+                </div> <!-- ./contact-info -->
+            </div> <!-- ./head-sec -->
+        </div> <!-- ./keep-touch -->
+    </section> <!-- ./form-touch -->
+    <!-- TODO: End form-keep-touch -->
 
     <!-- TODO: Start Testimonials -->
     <section class="testimonial" id="testimonial">
