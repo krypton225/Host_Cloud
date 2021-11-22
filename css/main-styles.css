@@ -15,7 +15,8 @@
         * 6- new-line.
         * 7- go-to-top.
           * 7.1- go-to-top.show-goToTop
-          * 7.2- .go-to-top i
+          * 7.2- .go-to-top a:focus, .go-to-top a:active, .go-to-top a:visited
+          * 7.3- .go-to-top i
 */
 
 * {
@@ -93,6 +94,14 @@ body {
   visibility: visible;
   opacity: 1;
   transition: 1s;
+}
+
+.go-to-top a:focus,
+.go-to-top a:active,
+.go-to-top a:visited {
+  text-decoration: none;
+  color: white;
+  /* background-color: #4945e4; */
 }
 
 .go-to-top i {
