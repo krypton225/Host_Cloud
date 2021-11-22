@@ -95,4 +95,5 @@
 .copyright p {
   text-align: center;
   color: white;
+  text-transform: capitalize;
 }
